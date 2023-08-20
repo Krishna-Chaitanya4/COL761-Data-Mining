@@ -342,8 +342,8 @@ int main(int argc ,char* argv[]){
     string out =argv[2];
     CompressorDecompressor com(s,out);
     com.Tree->preload(s);
-    cout<<com.generatethreshold()<<endl;
+    //cout<<com.generatethreshold()<<endl;
     com.Compressor(com.generatethreshold());
-    cout<<com.FrequentItemSet.size()<<endl;
+    //cout<<com.FrequentItemSet.size()<<endl;
     return 0;
 }
